@@ -26,7 +26,7 @@ export const RandomQuotes = () => {
 
   return (
     <Stack height='85vh' as='section' justifyContent='center' borderRadius='lg' border='1px solid grey' p='2rem' m='4rem'>
-      <Image src='' />
+      {/* <Image src='' /> */}
       <Heading as='h1' fontSize='4xl'>
         {quotes?.character?.name}
       </Heading>
