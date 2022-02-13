@@ -3,5 +3,7 @@ export const getImages = (name) => {
 };
 
 export const getBackground = () => {
-  return `https://raw.githubusercontent.com/tristansoriaga/game-of-thrones-quotes/main/src/images/texture/carbon_fibre.png`;
+  const random = Math.floor(Math.random() * 10);
+  const arrTexture = ['carbon_fibre.webp', 'connectwork.webp', 'dark-honeycomb.webp', 'double-bubble-dark.webp', 'green_dust_scratch.webp', 'halftone-yellow.webp', 'old_map.webp', 'pool_table.webp', 'wheat.webp', 'y-so-serious.webp'];
+  return `https://raw.githubusercontent.com/tristansoriaga/game-of-thrones-quotes/main/src/images/textures/${arrTexture[random]}`;
 };
