@@ -1,15 +1,15 @@
 import { Container } from '../components/Container';
 import { Main } from '../components/Main';
 import { DarkModeSwitch } from '../components/DarkModeSwitch';
-import { RandomQuotes } from '../components/RandomQuotes/';
+import { ListQuotes } from '../components/ListQuotes/';
 
-const Index = () => (
+const Collection = () => (
   <Container>
     <Main>
-      <RandomQuotes />
+      <ListQuotes />
     </Main>
     <DarkModeSwitch />
   </Container>
 );
 
-export default Index;
+export default Collection;
